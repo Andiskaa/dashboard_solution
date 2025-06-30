@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "shiny.html",
+    "href": "shiny.html",
+    "title": "Andri Iskandar",
+    "section": "",
+    "text": "Dashboard\nSeperti halnya papan pengumuman (information board), sebuah dashboard dapat memuat bermacam-macam informasi yang diperlukan oleh para stakeholders dalam rangka membantu mereka membuat sebuah keputusan. Informasi awal sebuah dashboard umumnya adalah sebuah data tabel yang berisikan angka-angka mentah yang perlu terlebih dahulu dibersihkan (data cleaning), diolah (data wrangling) dan dianalisa (data analyst) untuk kemudian dijabarkan ke dalam sebuah visualisasi grafik yang mudah untuk dibaca dan dipahami.\nInformasi dalam dashboard monitoring ini dapat sangat beragam tergantung kepada tujuan yang hendak diinginkan. Sebuah data penjualan misalnya, dapat diolah menjadi berbagai insight yang amat sangat diperlukan, seperti nilai kumulatif penjualan per-tahun, Kelompok barang yang paling cepat terjual, dan lain sebagainya. Data awalnya pun dapat diperoleh dari berbagai sumber yang dapat dikoneksikan secara real time untuk mendapatkan hasil analisa yang presisi dan instant."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "infograph.html",
+    "href": "infograph.html",
+    "title": "Andri Iskandar",
+    "section": "",
+    "text": "Infographics\nAdalah salah satu media untuk menginformasikan sebuah data dalam bentuk visual. Ide-ide yang kompleks yang awalnya masih berupa angka-angka mentah akan mudah dimengerti dan dipahami secara lebih baik setelah dirubah menjadi elemen-elemen grafik, gambar, diagram dan text yang akan mendukung penyampaian informasi secara cepat dan jelas kepada para pembacanya. Infographic seperti ini akan sangat diperlukan dalam rangka penyebaran informasi atau sosialisasi sebuah program agar tujuan besar yang hendak disampaikan dapat dimengerti oleh target pembaca.\nDalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah storytelling di dalamnya. Hal ini dimaksudkan agar apa yang hendak kita sampaikan dalam infographic tersebut mempunyai maksud dan tujuan yang sama dengan apa yang pembaca pikirkan, sehingga penting sekali konsep storytelling ini dalam setiap infographic yang dihasilkan."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Andri Iskandar",
+    "section": "",
+    "text": "Pentingnya Sebuah Dashboard\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 30, 2025\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 11, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sebagai seorang praktisi data analyst berpengalaman dan disupport oleh beberapa tim ahli di bidang software developer hingga data science, kami memberikan solusi menyeluruh untuk mengubah data-data yang selama ini tidak dimanfaatkan dan terlupakan oleh perusahaan menjadi sebuah data insight yang mudah dianalisa dalam bentuk visualisasi dashboard yang menarik dan infografis yang informatif. Dengan mengoptimalkan berbagai sumber daya baik hard-skill dan soft-skill, kami percaya solusi yang kami tawarkan dapat membantu perusahaan berkembang lebih baik dan lebih cepat.",
+    "section": "",
+    "text": "Setiap kegiatan bisnis pasti menghasilkan data, baik itu data terstruktur (dalam bentuk tabel) maupun tidak terstruktur (komunikasi dalam email). Bilamana data tersebut tidak dimanfaatkan dengan baik maka data-data tersebut hanya akan menjadi beban perusahaan di masa depan (karena meningkatnya storage capacity). Namun bila termanfaatkan dengan baik, maka data tersebut dapat menjadi insight yang berharga untuk melihat masa depan dengan berkaca atau belajar dari masa lalu (menjadi data driven company)\nData driven adalah sebuah mindset dimana seluruh stakeholder harus terlibat aktif di dalamnya untuk menilai sebuah data bukan hanya berupa angka-angka tanpa makna, namun lebih dari itu, data memuat catatan penting yang sangat berharga untuk digali bersama. Karenanya data harus diolah dan divisualkan agar dapat diakses dengan lebih mudah sehingga dapat membantu dalam pengambilan keputusan strategis yang berdampak luas (How Data Visualization And Centralization Support Business Decision Making)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick to open\n\n\n\n\n\nClick to open\n\n\n\n\n\n\n\nInfographic\n\n\n\n\n\n\n\n\nMemberikan jasa konsultasi terkait management data perusahaan\nMerancang & menyelenggarakan program pelatihan pembuatan dashboard\nMelakukan analisa dan development dashboard management system & infografis\nMenyediakan jasa pembersihan data (cleaning data)\nMenyediakan jasa extraksi & pengumpulan data website (web scrapping)\nMenyelenggarakan pelatihan data analyst dengan R, Python, Tableau, PowerBI"
+  },
+  {
+    "objectID": "index.html#background-section-title",
+    "href": "index.html#background-section-title",
+    "title": "Sebagai seorang praktisi data analyst berpengalaman dan disupport oleh beberapa tim ahli di bidang software developer hingga data science, kami memberikan solusi menyeluruh untuk mengubah data-data yang selama ini tidak dimanfaatkan dan terlupakan oleh perusahaan menjadi sebuah data insight yang mudah dianalisa dalam bentuk visualisasi dashboard yang menarik dan infografis yang informatif. Dengan mengoptimalkan berbagai sumber daya baik hard-skill dan soft-skill, kami percaya solusi yang kami tawarkan dapat membantu perusahaan berkembang lebih baik dan lebih cepat.",
+    "section": "",
+    "text": "Setiap kegiatan bisnis pasti menghasilkan data, baik itu data terstruktur (dalam bentuk tabel) maupun tidak terstruktur (komunikasi dalam email). Bilamana data tersebut tidak dimanfaatkan dengan baik maka data-data tersebut hanya akan menjadi beban perusahaan di masa depan (karena meningkatnya storage capacity). Namun bila termanfaatkan dengan baik, maka data tersebut dapat menjadi insight yang berharga untuk melihat masa depan dengan berkaca atau belajar dari masa lalu (menjadi data driven company)\nData driven adalah sebuah mindset dimana seluruh stakeholder harus terlibat aktif di dalamnya untuk menilai sebuah data bukan hanya berupa angka-angka tanpa makna, namun lebih dari itu, data memuat catatan penting yang sangat berharga untuk digali bersama. Karenanya data harus diolah dan divisualkan agar dapat diakses dengan lebih mudah sehingga dapat membantu dalam pengambilan keputusan strategis yang berdampak luas (How Data Visualization And Centralization Support Business Decision Making)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick to open\n\n\n\n\n\nClick to open\n\n\n\n\n\n\n\nInfographic"
+  },
+  {
+    "objectID": "index.html#solusi",
+    "href": "index.html#solusi",
+    "title": "Sebagai seorang praktisi data analyst berpengalaman dan disupport oleh beberapa tim ahli di bidang software developer hingga data science, kami memberikan solusi menyeluruh untuk mengubah data-data yang selama ini tidak dimanfaatkan dan terlupakan oleh perusahaan menjadi sebuah data insight yang mudah dianalisa dalam bentuk visualisasi dashboard yang menarik dan infografis yang informatif. Dengan mengoptimalkan berbagai sumber daya baik hard-skill dan soft-skill, kami percaya solusi yang kami tawarkan dapat membantu perusahaan berkembang lebih baik dan lebih cepat.",
+    "section": "",
+    "text": "Memberikan jasa konsultasi terkait management data perusahaan\nMerancang & menyelenggarakan program pelatihan pembuatan dashboard\nMelakukan analisa dan development dashboard management system & infografis\nMenyediakan jasa pembersihan data (cleaning data)\nMenyediakan jasa extraksi & pengumpulan data website (web scrapping)\nMenyelenggarakan pelatihan data analyst dengan R, Python, Tableau, PowerBI"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Pentingnya Sebuah Dashboard",
+    "section": "",
+    "text": "BANJIR DATA\nBergelut dengan data yang melimpah seperti bertarung tanpa akhir."
+  },
+  {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "Andri Iskandar",
+    "section": "",
+    "text": "Website Andiska"
+  },
+  {
+    "objectID": "readme.html#readme",
+    "href": "readme.html#readme",
+    "title": "Andri Iskandar",
+    "section": "",
+    "text": "Website Andiska"
+  }
+]
