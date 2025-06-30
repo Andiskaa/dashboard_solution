@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Andri Iskandar"
+  navbar:
+    left: 
+      - text: "Dashboard"
+        file: shiny.qmd
+      - text: "Infographics"
+        file: infograph.qmd
+
+
+    right:
+      - text: "Blogs"
+        # file: about.qmd
+      - icon: linkedin
+        href: https://linkedin.com/in/andriiskandar
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    grid: 
+      body-width: 1400px # Increase this value significantly, e.g., 1200px, 1400px, or even 2000px
+      # You could even set margin-width: 0px and gutter-width: 0px if desired
+      # sidebar-width: 0px # If you have no sidebar, you can set this to 0
+
+editor: visual
+

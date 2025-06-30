@@ -1,0 +1,41 @@
+---
+format: html
+html:
+  page-layout: full # This makes the entire page content full width
+---
+
+::: column-page
+### Infographics
+
+Adalah salah satu media untuk menginformasikan sebuah data dalam bentuk visual. Ide-ide yang kompleks yang awalnya masih berupa angka-angka mentah akan mudah dimengerti dan dipahami secara lebih baik setelah dirubah menjadi elemen-elemen grafik, gambar, diagram dan text yang akan mendukung penyampaian informasi secara cepat dan jelas kepada para pembacanya. Infographic seperti ini akan sangat diperlukan dalam rangka penyebaran informasi atau sosialisasi sebuah program agar tujuan besar yang hendak disampaikan dapat dimengerti oleh target pembaca. 
+
+Dalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah storytelling di dalamnya. Hal ini dimaksudkan agar apa yang hendak kita sampaikan dalam infographic tersebut mempunyai maksud dan tujuan yang sama dengan apa yang pembaca pikirkan, sehingga penting sekali konsep storytelling ini dalam setiap infographic yang dihasilkan.
+
+<br>
+
+::: {.columns}
+
+::: {.column width="25%"}
+![](images/petalpg.png){.border .responsive-image}
+![](images/regressionmodel.png){.border .responsive-image}
+:::
+
+::: {.column width="25%"}
+![](images/ridgesplot.png){.border .responsive-image}
+![](images/prod_petro.png){.border .responsive-image}
+:::
+
+::: {.column width="25%"}
+![](images/Rplot01.png){.border .responsive-image}
+![](images/prod_petro_streamgraph1.png){.border .responsive-image}
+:::
+
+::: {.column width="25%"}
+![](images/gdpanalysis.png){.border .responsive-image}
+![](images/wages2.png){.border .responsive-image}
+:::
+
+:::
+
+:::
+------------------------------------------------------------------------

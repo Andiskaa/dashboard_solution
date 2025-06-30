@@ -1,0 +1,11 @@
+---
+title: "Pentingnya Sebuah Dashboard"
+author: "Andiska"
+date: "2025-06-30"
+categories: [news]
+image: "image.jpg"
+---
+
+**BANJIR DATA**
+
+Bergelut dengan data yang melimpah seperti bertarung tanpa akhir. 
