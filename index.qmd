@@ -8,9 +8,13 @@ about:
     - icon: linkedin
       text: LinkedIn
       url: "https://linkedin.com/in/andriiskandar"
+      target: "_blank"
+
     - icon: globe
       text: website
-      url: "https://maestropowerbi.com"  
+      url: "https://maestropowerbi.com"
+      target: "_blank"
+
 comments: false
 ---
 
@@ -101,9 +105,9 @@ Data driven adalah sebuah mindset dimana seluruh stakeholder harus terlibat akti
 
 <!-- </div> -->
 
-[![Click to open](images/dashboardcontoh3.png){.border .responsive-image}](https://andiska.shinyapps.io/monitoringboard/)
+[![Click to open](images/dashboardcontoh3.png){.border .responsive-image}](https://andiska.shinyapps.io/monitoringboard/){target="_blank"}
 
-[![Click to open](images/dashboardcontoh4.png){.border .responsive-image}](https://bit.ly/sales_sample)
+[![Click to open](images/dashboardcontoh4.png){.border .responsive-image}](https://app.powerbi.com/view?r=eyJrIjoiODA4ZDljM2UtNzcyOS00NDAyLTg0Y2MtNWFjYTkwNGI3MGUwIiwidCI6ImU2YTM3MDkzLTgxOTAtNGM4Mi04M2JmLTljMGVlZGVkZDU3NCIsImMiOjEwfQ%3D%3D){target="_blank"}
 :::
 
 ::: {.column width="4%"}

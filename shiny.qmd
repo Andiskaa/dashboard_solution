@@ -4,16 +4,16 @@ html:
   page-layout: full # This makes the entire page content full width
 ---
 
-::: {.columns}
-
+::: columns
 ### Dashboard
 
-Seperti halnya papan pengumuman (information board), sebuah dashboard dapat memuat bermacam-macam informasi yang diperlukan oleh para stakeholders dalam rangka membantu mereka membuat sebuah keputusan. Informasi awal sebuah dashboard umumnya adalah sebuah data tabel yang berisikan angka-angka mentah yang perlu terlebih dahulu dibersihkan (data cleaning), diolah (data wrangling) dan dianalisa (data analyst) untuk kemudian dijabarkan ke dalam sebuah visualisasi grafik yang mudah untuk dibaca dan dipahami. 
+Seperti halnya papan pengumuman (information board), sebuah dashboard dapat memuat bermacam-macam informasi yang diperlukan oleh para stakeholders dalam rangka membantu mereka membuat sebuah keputusan. Informasi awal sebuah dashboard umumnya adalah sebuah data tabel yang berisikan angka-angka mentah yang perlu terlebih dahulu dibersihkan (data cleaning), diolah (data wrangling) dan dianalisa (data analisis) untuk kemudian dijabarkan ke dalam sebuah visualisasi grafik yang mudah untuk dibaca dan dipahami.
 
 Informasi dalam dashboard monitoring ini dapat sangat beragam tergantung kepada tujuan yang hendak diinginkan. Sebuah data penjualan misalnya, dapat diolah menjadi berbagai insight yang amat sangat diperlukan, seperti nilai kumulatif penjualan per-tahun, Kelompok barang yang paling cepat terjual, dan lain sebagainya. Data awalnya pun dapat diperoleh dari berbagai sumber yang dapat dikoneksikan secara real time untuk mendapatkan hasil analisa yang presisi dan instant.
 
 <br>
 
+```{=html}
 <style>
   .inside-quarto-frame-iframe {
     display: block;
@@ -22,8 +22,9 @@ Informasi dalam dashboard monitoring ini dapat sangat beragam tergantung kepada 
     border: none;
   }
 </style>
+```
 
+<iframe src="https://andiska.shinyapps.io/monitoringboard/" class="inside-quarto-frame-iframe">
 
-<iframe src="https://andiska.shinyapps.io/monitoringboard/" class="inside-quarto-frame-iframe"></iframe>
-
+</iframe>
 :::
