@@ -1,5 +1,5 @@
 ---
-title: "Sebagai seorang praktisi data analyst berpengalaman dan disupport oleh beberapa tim ahli di bidang software developer hingga data science, kami memberikan solusi menyeluruh untuk mengubah data-data yang selama ini tidak dimanfaatkan dan terlupakan oleh perusahaan menjadi sebuah data insight yang mudah dianalisa dalam bentuk <span style='color: #00809D;font-weight: bold;'>visualisasi dashboard</span> yang menarik dan <span style='color: #00809D;font-weight: bold;'>infografis</span> yang informatif. Dengan mengoptimalkan berbagai sumber daya baik hard-skill dan soft-skill, kami percaya solusi yang kami tawarkan dapat membantu perusahaan berkembang lebih baik dan lebih cepat."
+title: "Sebagai seorang praktisi data visual berpengalaman dan disupport oleh beberapa tim ahli di bidang software developer hingga data science, kami memberikan solusi menyeluruh untuk mengubah data-data yang selama ini tidak dimanfaatkan dan terlupakan oleh perusahaan menjadi sebuah data insight yang mudah dianalisa dalam bentuk <span style='color: #00809D;font-weight: bold;'>visualisasi dashboard</span> yang menarik dan <span style='color: #00809D;font-weight: bold;'>infografis</span> yang informatif. Dengan mengoptimalkan berbagai sumber daya baik hard-skill dan soft-skill, kami percaya solusi yang kami tawarkan dapat membantu perusahaan berkembang lebih baik dan lebih cepat."
 image: Andri02.png
 about:
   template: trestles
@@ -7,13 +7,14 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      url: "https://linkedin.comom/in/andriiskandar"
+      url: "https://linkedin.com/in/andriiskandar"
     - icon: globe
       text: website
       url: "https://maestropowerbi.com"  
 comments: false
 ---
 
+```{=html}
 <style>
 /* CSS below applies ONLY to this .qmd file
    It makes the page fit the viewport and handles internal scrolling if needed.
@@ -65,10 +66,10 @@ html, body {
   object-fit: contain;
 }
 </style>
+```
 
-::: column-page
-
-## Background{#background-section-title}
+::::::: column-page
+## Background {#background-section-title}
 
 Setiap kegiatan bisnis pasti menghasilkan data, baik itu data terstruktur (dalam bentuk tabel) maupun tidak terstruktur (komunikasi dalam email). Bilamana data tersebut tidak dimanfaatkan dengan baik maka data-data tersebut hanya akan menjadi beban perusahaan di masa depan (karena meningkatnya storage capacity). Namun bila termanfaatkan dengan baik, maka data tersebut dapat menjadi insight yang berharga untuk melihat masa depan dengan berkaca atau belajar dari masa lalu ([menjadi data driven company](https://www.instagram.com/hariankompas/reel/DGf0SHRNaE4/))
 
@@ -76,44 +77,58 @@ Data driven adalah sebuah mindset dimana seluruh stakeholder harus terlibat akti
 
 <br>
 
-::: {.columns}
-
+:::::: columns
 ::: {.column width="48%"}
 <!-- <div style="text-align: center;"> -->
+
 <!--   <a href="https://andiska.shinyapps.io/monitoringboard/" target="_blank"> -->
+
 <!--   <img src="images/dashboardcontoh3.PNG" alt="Contoh dashboard dengan shiny.io" style="max-width: 100%; height: auto; border: 0.5px solid #00809D;"> -->
+
 <!--   <a> -->
+
 <!-- </div> -->
+
 <!-- <br> -->
+
 <!-- <div style="text-align: center;"> -->
+
 <!--   <a href="https://bit.ly/sales_sample" target="_blank"> -->
+
 <!--   <img src="images/dashboardcontoh4.PNG" alt="Contoh dashboard dengan shiny.io" style="max-width: 100%; height: auto; border: 0.5px solid #00809D;"> -->
+
 <!--   <a> -->
+
 <!-- </div> -->
 
-[![Click to open](images/dashboardcontoh3.png){.border .responsive-image}](https://andiska.shinyapps.io/monitoringboard/){target="_blank"}
+[![Click to open](images/dashboardcontoh3.png){.border .responsive-image}](https://andiska.shinyapps.io/monitoringboard/)
 
-
-
-[![Click to open](images/dashboardcontoh4.png){.border .responsive-image}](https://bit.ly/sales_sample){target="_blank"}
+[![Click to open](images/dashboardcontoh4.png){.border .responsive-image}](https://bit.ly/sales_sample)
 :::
+
 ::: {.column width="4%"}
 :::
+
 ::: {.column width="48%"}
 ![Infographic](images/petalpg.png){.border .responsive-image}
 :::
-
-:::
-
+::::::
 
 ## Solusi
 
-- Memberikan jasa konsultasi terkait management data perusahaan
-- Merancang & menyelenggarakan program pelatihan pembuatan dashboard
-- Melakukan analisa dan development dashboard management system & infografis
-- Menyediakan jasa pembersihan data (cleaning data)
-- Menyediakan jasa extraksi & pengumpulan data website (web scrapping)
-- Menyelenggarakan pelatihan data analyst dengan R, Python, Tableau, PowerBI
-<p></p>
+-   Memberikan jasa konsultasi terkait management data perusahaan
 
-:::
+-   Merancang & menyelenggarakan program pelatihan pembuatan dashboard
+
+-   Melakukan analisa dan development dashboard management system & infografis
+
+-   Menyediakan jasa pembersihan data (cleaning data)
+
+-   Menyediakan jasa extraksi & pengumpulan data website (web scrapping)
+
+-   Menyelenggarakan pelatihan data analyst dengan R, Python, Tableau, PowerBI
+
+    <p>
+
+    </p>
+:::::::
