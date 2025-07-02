@@ -10,7 +10,9 @@ website:
         file: shiny.qmd
       - text: "Infographics"
         file: infograph.qmd
-
+      - text: "Galery"
+        file: dash.qmd
+        
 
     right:
       - text: "Blogs"

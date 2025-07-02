@@ -1,0 +1,11 @@
+---
+title: "backgrounddash"
+format: html
+---
+
+/* dashboard-styles.css */
+
+/* Override the global background for the body */
+body {
+  background-color: blue !important; /* Use !important to ensure override */
+}

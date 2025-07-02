@@ -1,0 +1,38 @@
+---
+title: "backcolor"
+format: html
+---
+
+/* dashboard-nav-styles.css */
+
+/* This targets the main navigation bar of a Quarto dashboard */
+.navbar {
+  background-color: #333  ; /* Example: A darker blue */
+  /* You might also want to adjust the text color for contrast */
+  color: white ; /* Example: White text */
+}
+
+/* If there are specific links or elements within the navbar you want to style */
+.navbar a {
+  color: white !important; /* Ensure link text is white */
+}
+
+.navbar a:hover {
+  color: #DDDDDD !important; /* Lighter white on hover */
+}
+
+/* If your dashboard has a specific header/title area that acts as a "ribbon" */
+.dashboard-header { /* This might be a class specific to dashboards */
+  background-color: #333 !important; /* Darker navbar */
+  color: white !important; /* White text for dark navbar */
+}
+
+/* You might also need to target the specific dashboard title */
+.dashboard-title {
+    color: white !important;
+}
+
+/* For the overall body background of this specific dashboard page */
+body {
+  background-color: white !important;
+}
