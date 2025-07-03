@@ -36,3 +36,40 @@ format: html
 body {
   background-color: white !important;
 }
+
+
+
+/* styles.css */
+
+.quarto-about-trestles h1.title {
+  font-weight: normal; /* This sets the font to regular style */
+  font-family: 'Roboto', sans-serif; /* You can also adjust font-size, font-family, color here if you wish */
+  font-size: 0.93em; /* font-size: 0.7em; */
+  line-height: 1.1; /* Adjust line spacing for better readability with justified text */
+  text-align: justify; /* This is the key property for justification */
+  /* Remove the truncation properties if you added them based on my previous advice,
+     unless you still want to limit lines *and* add padding.
+     If you only want padding/spacing, delete these lines:
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  */
+
+  /* --- Properties for Spacing (Padding) --- */
+  padding-left: 35px;  /* Space from the left edge */
+  padding-right: 35px; /* Space from the right edge */
+  padding-top: 30px;   /* Space from the top (e.g., from image or element above) */
+  padding-bottom: 10px; /* Space from the bottom (e.g., from links or elements below) */
+
+  /* Shorthand for padding (top, right, bottom, left) */
+  /* padding: 10px 20px 10px 20px; */
+  /* Or if top/bottom and left/right are the same: */
+  /* padding: 10px 20px; */
+
+  /* You might also want to adjust max-width if the text goes too wide on large screens */
+  /* max-width: 800px; */ /* Example: constrain the width of the text block */
+  /* margin-left: auto; */
+  /* margin-right: auto; */ /* Use with max-width to center the block if it's narrower than the page */
+}

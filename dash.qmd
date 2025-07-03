@@ -7,7 +7,8 @@ css: styles.css
 ---
 
 ```{r setup, include=FALSE}
-library(flexdashboard)
+
+#library(flexdashboard)
 library(tidyverse)
 library(highcharter)
 library(gt)
@@ -31,12 +32,10 @@ df <- df %>%
 ```
 
 
-## Column {.tabset .tabset-pills-right width=60%}
+## Column {.tabset .tabset-pills-right width=60% .my-left-column}
 
 
 ```{r}
-
-#| title : "Author"
 
 # Colors
 custom_colors <- viridis::mako(n = 15)
@@ -47,7 +46,8 @@ df %>%
   summarise(Reviews = sum(Reviews)) %>% 
   arrange(desc(Reviews)) %>% 
   head(15) %>% 
-  hchart('column', hcaes(x = Author, y = Reviews,color = custom_colors)) %>%   hc_add_theme(hc_theme_google()) %>% 
+  hchart('column', hcaes(x = Author, y = Reviews,color = custom_colors)) %>%
+  hc_add_theme(hc_theme_google()) %>% 
   hc_tooltip(pointFormat = '<b>Number of Reviews: </b> {point.y} <br>') %>% 
   hc_title(text = 'Most Popular Authors from 2009 to 2019',
            style = list(fontSize = '25px', fontWeight = 'bold')) %>% 
@@ -57,8 +57,6 @@ df %>%
 ```
 
 ```{r}
-
-#| title : "Reviews"
 
 # Colors
 custom_colors <- viridis::plasma(n = 15)
@@ -75,22 +73,47 @@ df %>%
   hc_subtitle(text = 'By Number of Reviews',
               style = list(fontSize = '16px')) %>% 
   hc_credits(enabled = TRUE, text = '@miguelfzzz')
+
 ```
 
+```{r}
+
+# Colors
+custom_colors <- viridis::mako(n = 15)
+
+# Most popular authors by reviews
+
+df %>% 
+  group_by(Year, Genre) %>% 
+  summarise(total = n(), .groups = "drop") %>% 
+  group_by(Genre) %>% 
+  mutate(cummulative = cumsum(total)) %>% 
+  hchart('line', hcaes(x = Year, y = cummulative, color = Genre, group = Genre)) %>%
+  hc_add_theme(hc_theme_google()) %>% 
+  hc_tooltip(pointFormat = '<b>Books produced: </b> {point.y} <br>') %>% 
+  hc_title(text = 'Cummulative Books Produced Year-to-Year',
+           style = list(fontSize = '25px', fontWeight = 'bold')) %>% 
+  hc_subtitle(text = 'Non Fiction still leads',
+              style = list(fontSize = '16px')) %>% 
+  hc_credits(enabled = TRUE, text = 'inspired by @miguelfzzz')
+
+```
 
 ## Column {width=40%}
 
 ```{r}
+
 # This is going to be a datatable
+
 df1 <- df %>% 
   filter(user_rating >= 4.9) %>% 
   arrange(desc(Reviews)) %>% 
-  select(Name, Author)
+  select(Name, Author, Price)
 
 # HTML table
 div(style = 'height:600px; overflow-y:scroll', gt(df1) %>% 
       tab_header(title = md('Best Books from 2009 to 2019'),
-                 subtitle = md('By Users Rating')) %>% 
+                 subtitle = md('By Users Rating >= 4.9')) %>% 
       opt_table_font(font = list(google_font('Chivo'), default_fonts())) %>% 
       tab_style(location = cells_column_labels(columns = everything()),
                 style = list(cell_borders(sides = 'bottom', 
@@ -105,19 +128,23 @@ div(style = 'height:600px; overflow-y:scroll', gt(df1) %>%
 ```
 
 ```{r}
+#| eval: false
+#| include: false
 
 # Colors
+
 custom_colors <- viridis::mako(n = 2)
 
 # Most common genre
-df %>% 
-  group_by(Genre) %>% 
-  summarise(count = n()) %>% 
-  hchart('pie', hcaes(x = Genre, y = count, color = custom_colors)) %>% 
-  hc_add_theme(hc_theme_google()) %>% 
-  hc_tooltip(pointFormat='<b>Proportion: </b> {point.percentage:,.2f}%') %>% 
+
+df %>%
+  group_by(Genre) %>%
+  summarise(count = n()) %>%
+  hchart('pie', hcaes(x = Genre, y = count, color = custom_colors)) %>%
+  hc_add_theme(hc_theme_google()) %>%
+  hc_tooltip(pointFormat='<b>Proportion: </b> {point.percentage:,.2f}%') %>%
   hc_title(text = 'Most Common Genre from 2009 to 2019',
-           style = list(fontSize = '15px', fontWeight = 'bold')) %>% 
+           style = list(fontSize = '15px', fontWeight = 'bold')) %>%
   hc_credits(enabled = TRUE, text = '@miguelfzzz')
 
 ```

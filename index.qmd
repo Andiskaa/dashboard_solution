@@ -1,19 +1,19 @@
 ---
-title: "Sebagai seorang praktisi data visual berpengalaman dan disupport oleh beberapa tim ahli di bidang software developer hingga data science, kami memberikan solusi menyeluruh untuk mengubah data-data yang selama ini tidak dimanfaatkan dan terlupakan oleh perusahaan menjadi sebuah data insight yang mudah dianalisa dalam bentuk <span style='color: #00809D;font-weight: bold;'>visualisasi dashboard</span> yang menarik dan <span style='color: #00809D;font-weight: bold;'>infografis</span> yang informatif. Dengan mengoptimalkan berbagai sumber daya baik hard-skill dan soft-skill, kami percaya solusi yang kami tawarkan dapat membantu perusahaan berkembang lebih baik dan lebih cepat."
+title: "Andri Iskandar"
 image: Andri02.png
 about:
   template: trestles
   image-width: 5cm
   links:
-    - icon: linkedin
-      text: LinkedIn
-      url: "https://linkedin.com/in/andriiskandar"
-      target: "_blank"
+     - icon: linkedin
+       text: LinkedIn
+       url: "https://linkedin.com/in/andriiskandar"
+       target: "_blank"
 
-    - icon: globe
-      text: website
-      url: "https://maestropowerbi.com"
-      target: "_blank"
+     - icon: globe
+       text: website
+       url: "https://maestropowerbi.com"
+       target: "_blank"
 
 comments: false
 ---
@@ -70,12 +70,17 @@ html, body {
   object-fit: contain;
 }
 </style>
+
 ```
 
+
 ::::::: column-page
+
+Apakah Anda merasa data perusahaan Anda seperti harta karun yang belum tergali sepenuhnya? Kami memahami betul tantangan tersebut. Sebagai praktisi visualisasi data, dan didukung oleh tim ahli yang terdiri dari software developer, data engineer serta data science, kami menawarkan sebuah solusi yang komprehensif, dimana kami akan membantu perusahaan Anda mengolah data yang selama ini terabaikan menjadi insight yang mudah dianalisa melalui [dashboard visual]{style="color: #00809D;font-weight: bold;"} yang intuitif dan menarik, serta [infografis]{style="color: #00809D;font-weight: bold;"} yang informatif dan tepat sasaran. Kami percaya, dengan mengoptimalkan seluruh sumber daya dan keahlian kami, stakeholder di perusahaan Anda dapat mengambil keputusan dengan lebih cepat dan akurat, dan tentunya akan mendorong perusahaan berkembang secara signifikan.
+
 ## Background {#background-section-title}
 
-Setiap kegiatan bisnis pasti menghasilkan data, baik itu data terstruktur (dalam bentuk tabel) maupun tidak terstruktur (komunikasi dalam email). Bilamana data tersebut tidak dimanfaatkan dengan baik maka data-data tersebut hanya akan menjadi beban perusahaan di masa depan (karena meningkatnya storage capacity). Namun bila termanfaatkan dengan baik, maka data tersebut dapat menjadi insight yang berharga untuk melihat masa depan dengan berkaca atau belajar dari masa lalu ([menjadi data driven company](https://www.instagram.com/hariankompas/reel/DGf0SHRNaE4/))
+Setiap kegiatan bisnis pasti menghasilkan data, baik itu data terstruktur (dalam bentuk tabel) maupun data tidak terstruktur (seperti data komunikasi dalam email, dll). Bilamana data tersebut tidak dimanfaatkan dengan baik maka data-data tersebut hanya akan menjadi beban perusahaan di masa depan (karena meningkatnya storage capacity). Namun bila termanfaatkan dengan baik, maka data tersebut dapat menjadi insight yang berharga untuk melihat masa depan dengan berkaca atau belajar dari masa lalu ([menjadi data driven company](https://www.instagram.com/hariankompas/reel/DGf0SHRNaE4/))
 
 Data driven adalah sebuah mindset dimana seluruh stakeholder harus terlibat aktif di dalamnya untuk menilai sebuah data bukan hanya berupa angka-angka tanpa makna, namun lebih dari itu, data memuat catatan penting yang sangat berharga untuk digali bersama. Karenanya data harus diolah dan divisualkan agar dapat diakses dengan lebih mudah sehingga dapat membantu dalam pengambilan keputusan strategis yang berdampak luas ([*How Data Visualization And Centralization Support Business Decision Making*](https://www.forbes.com/councils/forbesagencycouncil/2024/10/16/how-data-visualization-and-centralization-support-business-decision-making/))
 
@@ -83,31 +88,10 @@ Data driven adalah sebuah mindset dimana seluruh stakeholder harus terlibat akti
 
 :::::: columns
 ::: {.column width="48%"}
-<!-- <div style="text-align: center;"> -->
+[![Click to open](images/dashboardcontoh3.png){.border .responsive-image}](https://andiska.shinyapps.io/monitoringboard/)
 
-<!--   <a href="https://andiska.shinyapps.io/monitoringboard/" target="_blank"> -->
+[![Click to open](images/dashboardcontoh4.png){.border .responsive-image}](https://app.powerbi.com/view?r=eyJrIjoiODA4ZDljM2UtNzcyOS00NDAyLTg0Y2MtNWFjYTkwNGI3MGUwIiwidCI6ImU2YTM3MDkzLTgxOTAtNGM4Mi04M2JmLTljMGVlZGVkZDU3NCIsImMiOjEwfQ%3D%3D)
 
-<!--   <img src="images/dashboardcontoh3.PNG" alt="Contoh dashboard dengan shiny.io" style="max-width: 100%; height: auto; border: 0.5px solid #00809D;"> -->
-
-<!--   <a> -->
-
-<!-- </div> -->
-
-<!-- <br> -->
-
-<!-- <div style="text-align: center;"> -->
-
-<!--   <a href="https://bit.ly/sales_sample" target="_blank"> -->
-
-<!--   <img src="images/dashboardcontoh4.PNG" alt="Contoh dashboard dengan shiny.io" style="max-width: 100%; height: auto; border: 0.5px solid #00809D;"> -->
-
-<!--   <a> -->
-
-<!-- </div> -->
-
-[![Click to open](images/dashboardcontoh3.png){.border .responsive-image}](https://andiska.shinyapps.io/monitoringboard/){target="_blank"}
-
-[![Click to open](images/dashboardcontoh4.png){.border .responsive-image}](https://app.powerbi.com/view?r=eyJrIjoiODA4ZDljM2UtNzcyOS00NDAyLTg0Y2MtNWFjYTkwNGI3MGUwIiwidCI6ImU2YTM3MDkzLTgxOTAtNGM4Mi04M2JmLTljMGVlZGVkZDU3NCIsImMiOjEwfQ%3D%3D){target="_blank"}
 :::
 
 ::: {.column width="4%"}
