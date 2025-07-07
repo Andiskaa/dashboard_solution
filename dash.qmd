@@ -8,7 +8,7 @@ css: styles.css
 
 ```{r setup, include=FALSE}
 
-#library(flexdashboard)
+library(flexdashboard)
 library(tidyverse)
 library(highcharter)
 library(gt)

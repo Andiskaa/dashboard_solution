@@ -14,22 +14,29 @@ Dalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah
 <br>
 
 ::::::: columns
-::: {.column width="25%"}
-![](images/petalpg.png){.border .responsive-image} ![](images/regressionmodel.png){.border .responsive-image}
+
+::: {.column width="50%"}
+![](images/petalpg.png){.border .responsive-image}
+<br>
+![](images/regressionmodel.png){.border .responsive-image}
+<br>
+![](images/travelingtime.png){.border .responsive-image}
+<br>
+ ![](images/prod_petro_streamgraph1.png){.border .responsive-image}
 :::
 
-::: {.column width="25%"}
-![](images/ridgesplot.png){.border .responsive-image} ![](images/prod_petro.png){.border .responsive-image}
+::: {.column width="50%"}
+![](images/ridgesplot.png){.border .responsive-image}
+<br>
+![](images/prod_petro.png){.border .responsive-image}
+<br>
+![](images/gdpanalysis.png){.border .responsive-image}
+<br>
+![](images/wages2.png){.border .responsive-image}
+
 :::
 
-::: {.column width="25%"}
-![](images/Rplot01.png){.border .responsive-image} ![](images/prod_petro_streamgraph1.png){.border .responsive-image}
-:::
-
-::: {.column width="25%"}
-![](images/gdpanalysis.png){.border .responsive-image} ![](images/wages2.png){.border .responsive-image}
-:::
 :::::::
 ::::::::
 
-------------------------------------------------------------------------
+------------------------------
