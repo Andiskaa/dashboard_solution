@@ -14,8 +14,9 @@ Dalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah
 
 :::::: columns
 ::: {.column width="32%"}
-![](images/petalpg.png){.border .responsive-image} <br>
-![](images/ridgesplot.png){.border .responsive-image} <br>
+![](images/petalpg.png){.border .responsive-image}
+<div style="height: 10px;"></div>
+![](images/ridgesplot.png){.border .responsive-image}
 
 :::
 
@@ -23,8 +24,10 @@ Dalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah
 :::
 
 ::: {.column width="32%"}
-![](images/regressionmodel.png){.border .responsive-image} <br>
-![](images/prod_petro.png){.border .responsive-image} <br>
+![](images/regressionmodel.png){.border .responsive-image}
+<div style="height: 10px;"></div>
+![](images/prod_petro.png){.border .responsive-image}
+<div style="height: 10px;"></div>
 ![](images/wages2.png){.border .responsive-image}
 :::
 
@@ -32,8 +35,9 @@ Dalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah
 :::
 
 ::: {.column width="32%"}
-![](images/travelingtime.png){.border .responsive-image} <br>
-![](images/gdpanalysis.png){.border .responsive-image} <br>
+![](images/travelingtime.png){.border .responsive-image}
+<div style="height: 10px;"></div>
+![](images/gdpanalysis.png){.border .responsive-image}
 :::
 
 ::::::

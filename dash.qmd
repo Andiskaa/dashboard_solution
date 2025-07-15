@@ -36,7 +36,7 @@ df <- df %>%
 #| content: valuebox
 #| title: "Number of Author"
 list(
-  icon = "trash",
+  icon = "book",
   color = "primary",
   value = 150
 )
@@ -46,7 +46,7 @@ list(
 #| content: valuebox
 #| title: "Production Mean"
 list(
-  icon = "trash",
+  icon = "archive-fill",
   color = "secondary",
   value = 4
 )
@@ -56,7 +56,7 @@ list(
 #| content: valuebox
 #| title: "Highest Book Price"
 list(
-  icon = "trash",
+  icon = "bar-chart",
   color = "success",
   value = 5500
 )
@@ -66,7 +66,7 @@ list(
 #| content: valuebox
 #| title: "Country of Origin"
 list(
-  icon = "trash",
+  icon = "compass",
   color = "danger",
   value = 20
 )
