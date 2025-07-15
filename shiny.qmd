@@ -4,7 +4,7 @@ html:
   page-layout: full # This makes the entire page content full width
 ---
 
-::: columns
+
 ### Dashboard
 
 Seperti halnya papan pengumuman (information board), sebuah dashboard dapat memuat bermacam-macam informasi yang diperlukan oleh para stakeholders dalam rangka membantu mereka membuat sebuah keputusan. Informasi awal sebuah dashboard umumnya adalah sebuah data tabel yang berisikan angka-angka mentah yang perlu terlebih dahulu dibersihkan (data cleaning), diolah (data wrangling) dan dianalisa (data analisis) untuk kemudian dijabarkan ke dalam sebuah visualisasi grafik yang mudah untuk dibaca dan dipahami.
@@ -13,18 +13,31 @@ Informasi dalam dashboard monitoring ini dapat sangat beragam tergantung kepada 
 
 <br>
 
-```{=html}
-<style>
-  .inside-quarto-frame-iframe {
-    display: block;
-    width: 100%;    /* Will now be 100% of the full-width page layout */
-    height: 800px;
-    border: none;
-  }
-</style>
-```
+:::::: columns
+::: {.column width="32%"}
+[![Click to open](images/dashboardcontoh3.png){.border .responsive-image}](https://andiska.shinyapps.io/monitoringboard/){target="_blank"}
 
-<iframe src="https://andiska.shinyapps.io/monitoringboard/" class="inside-quarto-frame-iframe">
 
-</iframe>
 :::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="32%"}
+[![Click to open](images/dsh4.png){.border .responsive-image}]( https://andiska.shinyapps.io/pca_kmeans_visalization/){target="_blank"}
+
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="32%"}
+[![Click to open](images/dashboardcontoh4.png){.border .responsive-image}](https://app.powerbi.com/view?r=eyJrIjoiODA4ZDljM2UtNzcyOS00NDAyLTg0Y2MtNWFjYTkwNGI3MGUwIiwidCI6ImU2YTM3MDkzLTgxOTAtNGM4Mi04M2JmLTljMGVlZGVkZDU3NCIsImMiOjEwfQ%3D%3D){target="_blank"}
+
+:::
+
+::::::
+
+
+
+

@@ -70,12 +70,9 @@ html, body {
   object-fit: contain;
 }
 </style>
-
 ```
 
-
 ::::::: column-page
-
 Apakah Anda merasa data perusahaan Anda seperti harta karun yang belum tergali sepenuhnya? Kami memahami betul tantangan tersebut. Sebagai praktisi data visualisasi serta dukungan tim ahli yang terdiri dari software developer, data engineer dan data science, kami menawarkan sebuah solusi yang komprehensif, dimana kami akan membantu perusahaan Anda mengelola data yang selama ini terabaikan, menjadi insight yang mudah dianalisa melalui [dashboard visual]{style="color: #00809D;font-weight: bold;"} yang intuitif dan menarik, serta [infografis]{style="color: #00809D;font-weight: bold;"} yang informatif dan tepat sasaran. Kami percaya, dengan mengoptimalkan seluruh sumber daya dan keahlian kami, stakeholder Anda dapat mengambil keputusan dengan lebih cepat dan akurat, dan tentunya akan mendorong perusahaan Anda berkembang lebih baik di masa mendatang.
 
 ## Background {#background-section-title}
@@ -84,23 +81,6 @@ Setiap kegiatan bisnis pasti menghasilkan data, baik itu data terstruktur (dalam
 
 Data driven adalah sebuah mindset dimana seluruh stakeholder harus terlibat aktif di dalamnya untuk menilai sebuah data bukan hanya berupa angka-angka tanpa makna, namun lebih dari itu, data memuat catatan penting yang sangat berharga untuk digali bersama. Karenanya data harus diolah dan divisualkan agar dapat diakses dengan lebih mudah sehingga dapat membantu dalam pengambilan keputusan strategis yang berdampak luas ([*How Data Visualization And Centralization Support Business Decision Making*](https://www.forbes.com/councils/forbesagencycouncil/2024/10/16/how-data-visualization-and-centralization-support-business-decision-making/))
 
-<br>
-
-:::::: columns
-::: {.column width="48%"}
-[![Click to open](images/dashboardcontoh3.png){.border .responsive-image}](https://andiska.shinyapps.io/monitoringboard/){target="_blank"}
-
-[![Click to open](images/dashboardcontoh4.png){.border .responsive-image}](https://app.powerbi.com/view?r=eyJrIjoiODA4ZDljM2UtNzcyOS00NDAyLTg0Y2MtNWFjYTkwNGI3MGUwIiwidCI6ImU2YTM3MDkzLTgxOTAtNGM4Mi04M2JmLTljMGVlZGVkZDU3NCIsImMiOjEwfQ%3D%3D){target="_blank"}
-
-:::
-
-::: {.column width="4%"}
-:::
-
-::: {.column width="48%"}
-![Infographic](images/petalpg.png){.border .responsive-image}
-:::
-::::::
 
 ## Solusi
 

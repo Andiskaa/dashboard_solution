@@ -1,9 +1,7 @@
---- 
-format:
+---
+format: 
   dashboard:
-    orientation: columns
-
-css: styles.css
+    scrolling: true
 ---
 
 ```{r setup, include=FALSE}
@@ -15,6 +13,7 @@ library(gt)
 library(htmltools)
 library(viridis)
 library(readr)
+library(rmarkdown)
 
 ```
 
@@ -31,9 +30,50 @@ df <- df %>%
 
 ```
 
+## Row {height="10%"}
 
-## Column {.tabset .tabset-pills-right width=60% .my-left-column}
+```{r}
+#| content: valuebox
+#| title: "Number of Author"
+list(
+  icon = "trash",
+  color = "primary",
+  value = 150
+)
+```
 
+```{r}
+#| content: valuebox
+#| title: "Production Mean"
+list(
+  icon = "trash",
+  color = "secondary",
+  value = 4
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Highest Book Price"
+list(
+  icon = "trash",
+  color = "success",
+  value = 5500
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Country of Origin"
+list(
+  icon = "trash",
+  color = "danger",
+  value = 20
+)
+```
+
+
+## Row {height="40%"}
 
 ```{r}
 
@@ -99,7 +139,7 @@ df %>%
 
 ```
 
-## Column {width=40%}
+## Row {height="50%"}
 
 ```{r}
 
