@@ -12,34 +12,60 @@ Dalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah
 
 <br>
 
-:::::: columns
-::: {.column width="32%"}
+:::::::::::: columns
+:::: {.column width="32%"}
 ![](images/petalpg.png){.border .responsive-image}
-<div style="height: 10px;"></div>
+
+::: {style="height: 10px;"}
+:::
+
 ![](images/ridgesplot.png){.border .responsive-image}
 
+::: {style="height: 10px;"}
 :::
+
+![](images/thrspendingdiffrentgeneration.png){.border .responsive-image}
+
+::::
 
 ::: {.column width="2%"}
 :::
 
-::: {.column width="32%"}
+::::: {.column width="32%"}
 ![](images/regressionmodel.png){.border .responsive-image}
-<div style="height: 10px;"></div>
-![](images/prod_petro.png){.border .responsive-image}
-<div style="height: 10px;"></div>
-![](images/wages2.png){.border .responsive-image}
+
+::: {style="height: 10px;"}
 :::
+
+![](images/prod_petro.png){.border .responsive-image}
+
+::: {style="height: 10px;"}
+:::
+
+![](images/wages2.png){.border .responsive-image}
+
+::: {style="height: 10px;"}
+:::
+
+![](images/trumptariff.png){.border .responsive-image}
+
+:::::
 
 ::: {.column width="2%"}
 :::
 
-::: {.column width="32%"}
+:::: {.column width="32%"}
 ![](images/travelingtime.png){.border .responsive-image}
-<div style="height: 10px;"></div>
-![](images/gdpanalysis.png){.border .responsive-image}
+
+::: {style="height: 10px;"}
 :::
 
-::::::
+![](images/gdpanalysis.png){.border .responsive-image}
 
+::: {style="height: 10px;"}
+:::
 
+![](images/developedcountry.png){.border .responsive-image}
+
+::::
+::::::::::::

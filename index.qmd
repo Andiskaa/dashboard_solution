@@ -3,7 +3,7 @@ title: "Andri Iskandar"
 image: Andri02.png
 about:
   template: trestles
-  image-width: 5cm
+  image-width: 4cm
   links:
      - icon: linkedin
        text: LinkedIn
@@ -66,13 +66,13 @@ html, body {
 
 /* Optional: Make the image fit if it's too tall */
 .about-entity-contents img {
-  max-height: 100%;
+  max-height: 50%;
   object-fit: contain;
 }
 </style>
 ```
 
-::::::: column-page
+::: column-page
 Apakah Anda merasa data perusahaan Anda seperti harta karun yang belum tergali sepenuhnya? Kami memahami betul tantangan tersebut. Sebagai praktisi data visualisasi serta dukungan tim ahli yang terdiri dari software developer, data engineer dan data science, kami menawarkan sebuah solusi yang komprehensif, dimana kami akan membantu perusahaan Anda mengelola data yang selama ini terabaikan, menjadi insight yang mudah dianalisa melalui [dashboard visual]{style="color: #00809D;font-weight: bold;"} yang intuitif dan menarik, serta [infografis]{style="color: #00809D;font-weight: bold;"} yang informatif dan tepat sasaran. Kami percaya, dengan mengoptimalkan seluruh sumber daya dan keahlian kami, stakeholder Anda dapat mengambil keputusan dengan lebih cepat dan akurat, dan tentunya akan mendorong perusahaan Anda berkembang lebih baik di masa mendatang.
 
 ## Background {#background-section-title}
@@ -80,7 +80,6 @@ Apakah Anda merasa data perusahaan Anda seperti harta karun yang belum tergali s
 Setiap kegiatan bisnis pasti menghasilkan data, baik itu data terstruktur (dalam bentuk tabel) maupun data tidak terstruktur (seperti percakapan dalam email, dll). Bilamana data tersebut tidak dimanfaatkan dengan baik maka data-data tersebut hanya akan menjadi beban perusahaan di masa depan (dengan meningkatnya storage capacity). Namun bila termanfaatkan dengan baik, maka data tersebut dapat menjadi insight yang berharga untuk melihat masa depan dengan belajar dari masa lalu ([menjadi data driven company](https://www.instagram.com/hariankompas/reel/DGf0SHRNaE4/))
 
 Data driven adalah sebuah mindset dimana seluruh stakeholder harus terlibat aktif di dalamnya untuk menilai sebuah data bukan hanya berupa angka-angka tanpa makna, namun lebih dari itu, data memuat catatan penting yang sangat berharga untuk digali bersama. Karenanya data harus diolah dan divisualkan agar dapat diakses dengan lebih mudah sehingga dapat membantu dalam pengambilan keputusan strategis yang berdampak luas ([*How Data Visualization And Centralization Support Business Decision Making*](https://www.forbes.com/councils/forbesagencycouncil/2024/10/16/how-data-visualization-and-centralization-support-business-decision-making/))
-
 
 ## Solusi
 
@@ -99,4 +98,4 @@ Data driven adalah sebuah mindset dimana seluruh stakeholder harus terlibat akti
     <p>
 
     </p>
-:::::::
+:::
