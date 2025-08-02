@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>shiny – My Profile</title>
+<title>Visualisasi – My Profile</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -38,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-08e9d0c418f2960589d50510cd8c8510.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1ed1a35b37c79c489f0857ac04cab91a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,12 +68,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="stylecss.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -87,25 +147,14 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./shiny.html" aria-current="page"> 
-<span class="menu-text">Dashboard</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./infograph.html"> 
-<span class="menu-text">Infographics</span></a>
+<span class="menu-text">Visualization</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./dash.html"> 
 <span class="menu-text">Galery</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">Blogs</span>
-    </span>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://linkedin.com/in/andriiskandar" target="_blank"> <i class="bi bi-linkedin" role="img">
@@ -120,54 +169,304 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content">
 
-
-
-
-<section id="dashboard" class="level3">
-<h3 class="anchored" data-anchor-id="dashboard">Dashboard</h3>
-<p>Seperti halnya papan pengumuman (information board), sebuah dashboard dapat memuat bermacam-macam informasi yang diperlukan oleh para stakeholders dalam rangka membantu mereka membuat sebuah keputusan. Informasi awal sebuah dashboard umumnya adalah sebuah data tabel yang berisikan angka-angka mentah yang perlu terlebih dahulu dibersihkan (data cleaning), diolah (data wrangling) dan dianalisa (data analisis) untuk kemudian dijabarkan ke dalam sebuah visualisasi grafik yang mudah untuk dibaca dan dipahami.</p>
-<p>Informasi dalam dashboard monitoring ini dapat sangat beragam tergantung kepada tujuan yang hendak diinginkan. Sebuah data penjualan misalnya, dapat diolah menjadi berbagai insight yang amat sangat diperlukan, seperti nilai kumulatif penjualan per-tahun, Kelompok barang yang paling cepat terjual, dan lain sebagainya. Data awalnya pun dapat diperoleh dari berbagai sumber yang dapat dikoneksikan secara real time untuk mendapatkan hasil analisa yang presisi dan instant.</p>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:32%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://andiska.shinyapps.io/monitoringboard/" target="_blank"><img src="images/dashboardcontoh3.png" class="border responsive-image img-fluid figure-img" alt="Click to open"></a></p>
-<figcaption>Click to open</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:2%;">
-
-</div><div class="column" style="width:32%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://andiska.shinyapps.io/nation_monitoring/" target="_blank"><img src="images/dsh4.png" class="border responsive-image img-fluid figure-img" alt="Click to open"></a></p>
-<figcaption>Click to open</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:2%;">
-
-</div><div class="column" style="width:32%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://app.powerbi.com/view?r=eyJrIjoiODA4ZDljM2UtNzcyOS00NDAyLTg0Y2MtNWFjYTkwNGI3MGUwIiwidCI6ImU2YTM3MDkzLTgxOTAtNGM4Mi04M2JmLTljMGVlZGVkZDU3NCIsImMiOjEwfQ%3D%3D" target="_blank"><img src="images/dashboardcontoh4.png" class="border responsive-image img-fluid figure-img" alt="Click to open"></a></p>
-<figcaption>Click to open</figcaption>
-</figure>
-</div>
-</div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Visualize Your Data</h1>
 </div>
 
 
-</section>
 
-</main> <!-- /main -->
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Perhitungan statistik pada data adalah sesuatu yang sangat baik, namun akan jauh lebih baik bilamana data tersebut divisualisasikan dan dilengkapi dengan storytelling yang tepat agar pembaca dapat mengerti dan memahami insight yang hendak disampaikan.</p>
+<!-- Seperti halnya papan pengumuman (information board), sebuah dashboard dapat memuat bermacam-macam informasi yang diperlukan oleh para stakeholders dalam rangka membantu mereka membuat sebuah keputusan. Informasi awal sebuah dashboard umumnya adalah sebuah data tabel yang berisikan angka-angka mentah yang perlu terlebih dahulu dibersihkan (data cleaning), diolah (data wrangling) dan dianalisa (data analisis) untuk kemudian dijabarkan ke dalam sebuah visualisasi grafik yang mudah untuk dibaca dan dipahami. -->
+<!-- Informasi dalam dashboard monitoring ini dapat sangat beragam tergantung kepada tujuan yang hendak diinginkan. Sebuah data penjualan misalnya, dapat diolah menjadi berbagai insight yang amat sangat diperlukan, seperti nilai kumulatif penjualan per-tahun, Kelompok barang yang paling cepat terjual, dan lain sebagainya. Data awalnya pun dapat diperoleh dari berbagai sumber yang dapat dikoneksikan secara real time untuk mendapatkan hasil analisa yang presisi dan instant. -->
+<!-- <br> -->
+<!-- :::::::: columns -->
+<!-- ::: {.column width="32%"} -->
+<!-- [![Click to open](images/dashboardcontoh3.png){.border .responsive-image}](https://andiska.shinyapps.io/monitoringboard/) -->
+<!-- ::: -->
+<!-- ::: {.column width="2%"} -->
+<!-- ::: -->
+<!-- ::: {.column width="32%"} -->
+<!-- [![Click to open](images/dsh4.png){.border .responsive-image}](https://andiska.shinyapps.io/nation_monitoring/) -->
+<!-- ::: -->
+<!-- ::: {.column width="2%"} -->
+<!-- ::: -->
+<!-- ::: {.column width="32%"} -->
+<!-- [![Click to open](images/dashboardcontoh4.png){.border .responsive-image}](https://app.powerbi.com/view?r=eyJrIjoiODA4ZDljM2UtNzcyOS00NDAyLTg0Y2MtNWFjYTkwNGI3MGUwIiwidCI6ImU2YTM3MDkzLTgxOTAtNGM4Mi04M2JmLTljMGVlZGVkZDU3NCIsImMiOjEwfQ%3D%3D) -->
+<!-- ::: -->
+<!-- :::::::: -->
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1754142116287" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
+<a href="./posts/10_info5/ind_info5.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/regressionmodel.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Produksi Padi Nasional
+</h5>
+<div class="card-text listing-description">
+Hubungan atau korelasi antara luas lahan dan produktifitas terhadap hasil panen sangat erat kaitannya. Bila luas lahan padi meningkat dan diiringi oleh efisiensi produksi…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1754142505645" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+<a href="./posts/11_info6/ind_info6.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/developedcountry.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+PC Analysis 5 Indikator Ekonomi Dunia
+</h5>
+<div class="card-text listing-description">
+Menjadi negara maju butuh proses yang panjang., dan ini terlihat dari 5 variable ekonomi yang ada, dimana Indonesia masih tertinggal jauh dari Singapore yang sudah masuk ke…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1754142693068" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+<a href="./posts/1_bi_sales/index_bi_sales.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/dashboardcontoh4.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dashboard Sales Monitor
+</h5>
+<div class="card-text listing-description">
+Mengontrol sebuah operasional toko retail bukanlah sebuah hal yang mudah, ada banyak variable yang harus dikontrol secara detail agar performance bisnis tetap terjaga.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1754131088769" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+<a href="./posts/2_dash_1/ind_dash1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/gdpanalysis.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+GDP Around The World
+</h5>
+<div class="card-text listing-description">
+Gross Domestic Product per Capita adalah salah satu indikator kemakmuran sebuah negara yang mengukur pendapatannya dibandingkan jumlah penduduk. Dengan visualisasi seperti…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1754142780160" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<a href="./posts/3_nationmonitor/index_nation.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/dsh4.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Capaian Ekonomi Dunia
+</h5>
+<div class="card-text listing-description">
+Berikut ini adalah dashboard hasil pengolahan atas 5 variable ekonomi sebuah negara
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1754143863660" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
+<a href="./posts/4_info0/ind_dash2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/Marketshare_BUMN.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analisa Penjualan Oli Pertamina
+</h5>
+<div class="card-text listing-description">
+Penjualan oli mesin produksi Pertamina sebagai perusahaan negara ternyata masih kurang populer dibandingkan produsen oli lain berdasarkan data scrapping selama 1 bulan di…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1754144181820" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<a href="./posts/5_info1/ind_info1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/prod_petro.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Produksi Minyak Bumi Indonesia
+</h5>
+<div class="card-text listing-description">
+Penurunan produksi minyak memang sudah dirasakan semenjak tahun 2000, dan tren penurunan ini masih terus berlangsung ditengah meningkatnya konsumsi bahan bakar negara-negara…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1754145187016" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+<a href="./posts/6_bisnisdashboard/bdash.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/dashboardcontoh5.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pentingnya Sebuah Bisnis Dahboard
+</h5>
+<div class="card-text listing-description">
+Monitoring dan kontroling adalah sebuah aktifitas bisnis yang harus terus menerus dilakukan oleh para pemangku kepentingan.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1754144421536" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<a href="./posts/7_info2/ind_info2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/prod_petro_streamgraph1.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Stream Graph Poduksi Minyak
+</h5>
+<div class="card-text listing-description">
+Bila digambarkan dalam graphic stream maka total produksi minyak di ASEAN memang mengalami penurunan
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1754139573706" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
+<a href="./posts/8_info3/ind_info3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/petalpg.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Distribusi LPG Jakarta
+</h5>
+<div class="card-text listing-description">
+Distribusi tabung gas 3 Kg sempat menjadi isu panas beberapa bulan yang lalu, dan setelah dikumpulkan beberapa data dari BPS lalu kita analisa, memang tampak bahwa…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1754140324287" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<a href="./posts/9_info4/ind_info4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/trumptariff.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+US Tariff to ASEAN
+</h5>
+<div class="card-text listing-description">
+Sebelum adanya kesepakatan final tentang tariff export ke Amerika (19%), Indonesia dikenakan besaran tariff senilai 32% oleh Uncel Sam atau Uncle Trump.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andiska
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -272,6 +571,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

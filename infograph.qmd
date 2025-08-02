@@ -12,8 +12,8 @@ Dalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah
 
 <br>
 
-:::::::::::: columns
-:::: {.column width="32%"}
+::::::::::::::: columns
+::::: {.column width="32%"}
 ![](images/petalpg.png){.border .responsive-image}
 
 ::: {style="height: 10px;"}
@@ -25,13 +25,12 @@ Dalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah
 :::
 
 ![](images/thrspendingdiffrentgeneration.png){.border .responsive-image}
-
-::::
+:::::
 
 ::: {.column width="2%"}
 :::
 
-::::: {.column width="32%"}
+:::::: {.column width="32%"}
 ![](images/regressionmodel.png){.border .responsive-image}
 
 ::: {style="height: 10px;"}
@@ -48,13 +47,12 @@ Dalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah
 :::
 
 ![](images/trumptariff.png){.border .responsive-image}
-
-:::::
+::::::
 
 ::: {.column width="2%"}
 :::
 
-:::: {.column width="32%"}
+::::: {.column width="32%"}
 ![](images/travelingtime.png){.border .responsive-image}
 
 ::: {style="height: 10px;"}
@@ -66,6 +64,5 @@ Dalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah
 :::
 
 ![](images/developedcountry.png){.border .responsive-image}
-
-::::
-::::::::::::
+:::::
+:::::::::::::::

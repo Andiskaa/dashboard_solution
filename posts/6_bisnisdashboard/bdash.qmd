@@ -1,0 +1,11 @@
+---
+title: "Pentingnya Sebuah Bisnis Dahboard"
+author: "Andiska"
+image: /images/dashboardcontoh5.png
+---
+
+Monitoring dan kontroling adalah sebuah aktifitas bisnis yang harus terus menerus dilakukan oleh para pemangku kepentingan.
+
+[![](/images/dashboardcontoh5.PNG){fig-align="center"}](https://andiska.shinyapps.io/monitoringboard/)
+
+Sehingga mereka dapat dengan mudah dan cepat mengambil keputusan strategis berdasarkan data bukan hanya intuisi bisnis.

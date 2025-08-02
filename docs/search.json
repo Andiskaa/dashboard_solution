@@ -2,30 +2,51 @@
   {
     "objectID": "shiny.html",
     "href": "shiny.html",
-    "title": "My Profile",
+    "title": "Visualize Your Data",
     "section": "",
-    "text": "Dashboard\nSeperti halnya papan pengumuman (information board), sebuah dashboard dapat memuat bermacam-macam informasi yang diperlukan oleh para stakeholders dalam rangka membantu mereka membuat sebuah keputusan. Informasi awal sebuah dashboard umumnya adalah sebuah data tabel yang berisikan angka-angka mentah yang perlu terlebih dahulu dibersihkan (data cleaning), diolah (data wrangling) dan dianalisa (data analisis) untuk kemudian dijabarkan ke dalam sebuah visualisasi grafik yang mudah untuk dibaca dan dipahami.\nInformasi dalam dashboard monitoring ini dapat sangat beragam tergantung kepada tujuan yang hendak diinginkan. Sebuah data penjualan misalnya, dapat diolah menjadi berbagai insight yang amat sangat diperlukan, seperti nilai kumulatif penjualan per-tahun, Kelompok barang yang paling cepat terjual, dan lain sebagainya. Data awalnya pun dapat diperoleh dari berbagai sumber yang dapat dikoneksikan secara real time untuk mendapatkan hasil analisa yang presisi dan instant.\n\n\n\n\n\n\nClick to open\n\n\n\n\n\n\n\n\nClick to open\n\n\n\n\n\n\n\n\nClick to open"
+    "text": "Perhitungan statistik pada data adalah sesuatu yang sangat baik, namun akan jauh lebih baik bilamana data tersebut divisualisasikan dan dilengkapi dengan storytelling yang tepat agar pembaca dapat mengerti dan memahami insight yang hendak disampaikan.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProduksi Padi Nasional\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPC Analysis 5 Indikator Ekonomi Dunia\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDashboard Sales Monitor\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGDP Around The World\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCapaian Ekonomi Dunia\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalisa Penjualan Oli Pertamina\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProduksi Minyak Bumi Indonesia\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPentingnya Sebuah Bisnis Dahboard\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStream Graph Poduksi Minyak\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistribusi LPG Jakarta\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUS Tariff to ASEAN\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/9_info4/ind_info4.html",
+    "href": "posts/9_info4/ind_info4.html",
+    "title": "US Tariff to ASEAN",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Sebelum adanya kesepakatan final tentang tariff export ke Amerika (19%), Indonesia dikenakan besaran tariff senilai 32% oleh Uncel Sam atau Uncle Trump.\n\n\n\n\n\nNilai 32% muncul akibat defisit perdagangan yang dirasakan Amerika selama ini. Nilainya mencapai sekitar 17 miliar dolar US menurut hitungan resmi BPS dan ini harus “diganti” oleh Indonesia, padahal pencetus perdagangan bebas adalah Amerika sendiri, cukup ironis bukan.\nDiantara negara Asia, Indonesia sebenarnya masih sedikit beruntung karena tariff tertinggi yang dikenakan Amerika adalah ke negara Kamboja yang menurut saya tidak bisa banyak “melawan” kebijakan uncle Trump ini, dan terkesan kebijakan ini seperti semena-mena kepada negara yang seharusnya “dibantu” bukan malah “diperas”"
   },
   {
-    "objectID": "infograph.html",
-    "href": "infograph.html",
-    "title": "My Profile",
+    "objectID": "posts/7_info2/ind_info2.html",
+    "href": "posts/7_info2/ind_info2.html",
+    "title": "Stream Graph Poduksi Minyak",
     "section": "",
-    "text": "Infographics\nAdalah salah satu media untuk menginformasikan sebuah data dalam bentuk visual. Ide-ide yang kompleks yang awalnya masih berupa angka-angka mentah akan mudah dimengerti dan dipahami secara lebih baik setelah dirubah menjadi elemen-elemen grafik, gambar, diagram dan text yang akan mendukung penyampaian informasi secara cepat dan jelas kepada para pembacanya. Infographic seperti ini akan sangat diperlukan dalam rangka penyebaran informasi atau sosialisasi sebuah program agar tujuan besar yang hendak disampaikan dapat dimengerti oleh target pembaca.\nDalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah storytelling di dalamnya. Hal ini dimaksudkan agar apa yang hendak kita sampaikan dalam infographic tersebut mempunyai maksud dan tujuan yang sama dengan apa yang pembaca pikirkan, sehingga penting sekali konsep storytelling ini dalam setiap infographic yang dihasilkan."
+    "text": "Bila digambarkan dalam graphic stream maka total produksi minyak di ASEAN memang mengalami penurunan\n\n\n\n\n\nDan hingga kini masih belum terkonfirmasi telah ditemukannya sumur resevoir minyak bumi besar di kawasan ini. Dan ini bisa menandakan bahwa Asia Tenggara akan menjadi nett importing minyak dalam beberapa tahun ke depan."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "My Profile",
+    "objectID": "posts/5_info1/ind_info1.html",
+    "href": "posts/5_info1/ind_info1.html",
+    "title": "Produksi Minyak Bumi Indonesia",
     "section": "",
-    "text": "Pentingnya Sebuah Dashboard\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 30, 2025\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 11, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Penurunan produksi minyak memang sudah dirasakan semenjak tahun 2000, dan tren penurunan ini masih terus berlangsung ditengah meningkatnya konsumsi bahan bakar negara-negara ASEAN.\n\n\n\n\n\nNamun bila kita melihat produksi negara-negara penghasil minyak, memang tidak terlihat penurunan yang berarti, sekalipun terjadi penurunan, itu lebih disebabkan karena pertimbangan bisnis untuk kepentingan lain seperti adjustment harga pasar dan lain-lain"
+  },
+  {
+    "objectID": "posts/3_nationmonitor/index_nation.html",
+    "href": "posts/3_nationmonitor/index_nation.html",
+    "title": "Capaian Ekonomi Dunia",
+    "section": "",
+    "text": "Berikut ini adalah dashboard hasil pengolahan atas 5 variable ekonomi sebuah negara"
+  },
+  {
+    "objectID": "posts/1_bi_sales/index_bi_sales.html",
+    "href": "posts/1_bi_sales/index_bi_sales.html",
+    "title": "Dashboard Sales Monitor",
+    "section": "",
+    "text": "Mengontrol sebuah operasional toko retail bukanlah sebuah hal yang mudah, ada banyak variable yang harus dikontrol secara detail agar performance bisnis tetap terjaga.\n\n\n\n\n\nDashboard berikut dapat dijadikan gambaran tentang parameter yang terjadi setelah pengolah data dilakukan."
+  },
+  {
+    "objectID": "posts/10_info5/ind_info5.html",
+    "href": "posts/10_info5/ind_info5.html",
+    "title": "Produksi Padi Nasional",
+    "section": "",
+    "text": "Hubungan atau korelasi antara luas lahan dan produktifitas terhadap hasil panen sangat erat kaitannya. Bila luas lahan padi meningkat dan diiringi oleh efisiensi produksi yang baik, maka hasilnya adalah peningkatan jumlah hasil panen.\n\n\n\n\n\nTahun ini total produksi beras kita diperkirakan sebesar 21 juta ton dan jika dikonversikan ke produksi gabah menjadi sekitar 50 juta ton. Dari sini memang sudah terlihat bahwa luas lahan persawahan kita jauh berkurang dibandingkan dengan tahun 2018 dan hingga saat inipun tidak terdapat angka yang signifikan dalam penambahan luas lahannya.\nSehingga bila tercatat terjadi kenaikan jumlah produksi beras, maka itu lebih banyak disumbang oleh faktor produktifitas."
   },
   {
     "objectID": "index.html",
@@ -49,11 +70,53 @@
     "text": "Memberikan jasa konsultasi terkait management data perusahaan\nMerancang & menyelenggarakan program pelatihan pembuatan dashboard\nMelakukan analisa dan development dashboard management system & infografis\nMenyediakan jasa pembersihan data (cleaning data)\nMenyediakan jasa extraksi & pengumpulan data website (web scrapping)\nMenyelenggarakan pelatihan data analyst dengan R, Python, Tableau, PowerBI"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Pentingnya Sebuah Dashboard",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "My Profile",
     "section": "",
-    "text": "BANJIR DATA\nBergelut dengan data yang melimpah seperti bertarung tanpa akhir."
+    "text": "Produksi Padi Nasional\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nPC Analysis 5 Indikator Ekonomi Dunia\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nDashboard Sales Monitor\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nGDP Around The World\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nCapaian Ekonomi Dunia\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nAnalisa Penjualan Oli Pertamina\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nProduksi Minyak Bumi Indonesia\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nPentingnya Sebuah Bisnis Dahboard\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nStream Graph Poduksi Minyak\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nDistribusi LPG Jakarta\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\n\n\n\n\n\n\nUS Tariff to ASEAN\n\n\n\n\n\n\n\n\n\n\n\nAndiska\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "infograph.html",
+    "href": "infograph.html",
+    "title": "My Profile",
+    "section": "",
+    "text": "Infographics\nAdalah salah satu media untuk menginformasikan sebuah data dalam bentuk visual. Ide-ide yang kompleks yang awalnya masih berupa angka-angka mentah akan mudah dimengerti dan dipahami secara lebih baik setelah dirubah menjadi elemen-elemen grafik, gambar, diagram dan text yang akan mendukung penyampaian informasi secara cepat dan jelas kepada para pembacanya. Infographic seperti ini akan sangat diperlukan dalam rangka penyebaran informasi atau sosialisasi sebuah program agar tujuan besar yang hendak disampaikan dapat dimengerti oleh target pembaca.\nDalam prinsip dasar sebuah infographics, perlu sekali untuk memperhatikan sebuah storytelling di dalamnya. Hal ini dimaksudkan agar apa yang hendak kita sampaikan dalam infographic tersebut mempunyai maksud dan tujuan yang sama dengan apa yang pembaca pikirkan, sehingga penting sekali konsep storytelling ini dalam setiap infographic yang dihasilkan."
+  },
+  {
+    "objectID": "posts/11_info6/ind_info6.html",
+    "href": "posts/11_info6/ind_info6.html",
+    "title": "PC Analysis 5 Indikator Ekonomi Dunia",
+    "section": "",
+    "text": "Menjadi negara maju butuh proses yang panjang., dan ini terlihat dari 5 variable ekonomi yang ada, dimana Indonesia masih tertinggal jauh dari Singapore yang sudah masuk ke dalam kelompok negara-negara maju.\n\n\n\n\n\nDengan menggunakan metode PCA (Principal Component Analysis) dan klustering dengan Kmeans, maka dapat kita kelompokkan negara di dunia ini menjadi 3 bagian\n\nNegara Maju\nNegara Berkembang\nNegara Potensi Berkembang"
+  },
+  {
+    "objectID": "posts/2_dash_1/ind_dash1.html",
+    "href": "posts/2_dash_1/ind_dash1.html",
+    "title": "GDP Around The World",
+    "section": "",
+    "text": "Gross Domestic Product per Capita adalah salah satu indikator kemakmuran sebuah negara yang mengukur pendapatannya dibandingkan jumlah penduduk. Dengan visualisasi seperti ini, maka kita dapat melihat seberapa agresive sebuah negara berkembang sejak tahun 1950 hingga 2022."
+  },
+  {
+    "objectID": "posts/4_info0/ind_dash2.html",
+    "href": "posts/4_info0/ind_dash2.html",
+    "title": "Analisa Penjualan Oli Pertamina",
+    "section": "",
+    "text": "Penjualan oli mesin produksi Pertamina sebagai perusahaan negara ternyata masih kurang populer dibandingkan produsen oli lain berdasarkan data scrapping selama 1 bulan di platform marketplace.\n\nMungkin saja karena penjualan oli melalui platform online ini masih kurang diminati karena umumnya pembeli oli melalui online adalah mereka yang dapat dikategorikan ahli dalam permesinan. Sedangkan mereka yang bukan ahlinya lebih suka membeli langsung ke toko-toko mobil/motor sehingga data penjualan online ini masih perlu ditambahkan dengan data penjualan yang para produsen oli miliki."
+  },
+  {
+    "objectID": "posts/6_bisnisdashboard/bdash.html",
+    "href": "posts/6_bisnisdashboard/bdash.html",
+    "title": "Pentingnya Sebuah Bisnis Dahboard",
+    "section": "",
+    "text": "Monitoring dan kontroling adalah sebuah aktifitas bisnis yang harus terus menerus dilakukan oleh para pemangku kepentingan.\n\n\n\n\n\nSehingga mereka dapat dengan mudah dan cepat mengambil keputusan strategis berdasarkan data bukan hanya intuisi bisnis."
+  },
+  {
+    "objectID": "posts/8_info3/ind_info3.html",
+    "href": "posts/8_info3/ind_info3.html",
+    "title": "Distribusi LPG Jakarta",
+    "section": "",
+    "text": "Distribusi tabung gas 3 Kg sempat menjadi isu panas beberapa bulan yang lalu, dan setelah dikumpulkan beberapa data dari BPS lalu kita analisa, memang tampak bahwa sebarannya memang tidak merata.\n\n\n\n\n\nMemang tidak ada standard ratio optimal distributor atau penyalur tabung gas ini di setiap kecamatan. Namun berdasakan data hasil olahan menunjukkan angka 0.04% jumlah distributor gas di kecamatan-kecamatan yang bergaris merah tebal.\nIni artinya bahwa hanya ada 4 distributor resmi untuk setiap 10,000 penduduk dan angka ini ternyata belumlah cukup untuk memenuhi kebutuhan masyarakat akan gas tabung 3 Kg tersebut."
   },
   {
     "objectID": "readme.html",

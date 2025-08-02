@@ -1,0 +1,13 @@
+---
+title: "Distribusi LPG Jakarta"
+author: "Andiska"
+image: /images/petalpg.png
+---
+
+Distribusi tabung gas 3 Kg sempat menjadi isu panas beberapa bulan yang lalu, dan setelah dikumpulkan beberapa data dari BPS lalu kita analisa, memang tampak bahwa sebarannya memang tidak merata.
+
+![](/images/petalpg.png){fig-align="center"}
+
+Memang tidak ada standard ratio optimal distributor atau penyalur tabung gas ini di setiap kecamatan. Namun berdasakan data hasil olahan menunjukkan angka 0.04% jumlah distributor gas di kecamatan-kecamatan yang bergaris merah tebal.
+
+Ini artinya bahwa hanya ada 4 distributor resmi untuk setiap 10,000 penduduk dan angka ini ternyata belumlah cukup untuk memenuhi kebutuhan masyarakat akan gas tabung 3 Kg tersebut.

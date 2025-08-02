@@ -28,5 +28,80 @@
   },
   "dash3.qmd": {
     "dash3.html": "5c0369e1"
+  },
+  "posts/bisnisdashboard/bdash.qmd": {
+    "bdash.html": "caec7fac"
+  },
+  "posts/bi_sales/index.qmd": {
+    "index.html": "aa33739e"
+  },
+  "posts/nationmonitor/index.qmd": {
+    "index.html": "8d883733"
+  },
+  "posts/bi_sales/index_bi_sales.qmd": {
+    "index_bi_sales.html": "0b7fd31a"
+  },
+  "posts/nationmonitor/index_nation.qmd": {
+    "index_nation.html": "84b4406b"
+  },
+  "posts/dash_1/ind_dash1.qmd": {
+    "ind_dash1.html": "cf255736"
+  },
+  "posts/dash_2/ind_dash2.qmd": {
+    "ind_dash2.html": "c54c2530"
+  },
+  "posts/info1/ind_info1.qmd": {
+    "ind_info1.html": "d81cf9e3"
+  },
+  "posts/info2/ind_info2.qmd": {
+    "ind_info2.html": "8e57069a"
+  },
+  "posts/info3/ind_info3.qmd": {
+    "ind_info3.html": "24955a6d"
+  },
+  "posts/info4/ind_info4.qmd": {
+    "ind_info4.html": "0e5b95ee"
+  },
+  "posts/info5/ind_info5.qmd": {
+    "ind_info5.html": "83838ae5"
+  },
+  "posts/info6/ind_info6.qmd": {
+    "ind_info6.html": "859739b8"
+  },
+  "posts/1_bi_sales/index_bi_sales.qmd": {
+    "index_bi_sales.html": "f565b94f"
+  },
+  "posts/2_dash_1/ind_dash1.qmd": {
+    "ind_dash1.html": "e3deaa68"
+  },
+  "posts/3_nationmonitor/index_nation.qmd": {
+    "index_nation.html": "bb375925"
+  },
+  "posts/4_dash_2/ind_dash2.qmd": {
+    "ind_dash2.html": "c076fd13"
+  },
+  "posts/5_info1/ind_info1.qmd": {
+    "ind_info1.html": "37995706"
+  },
+  "posts/6_bisnisdashboard/bdash.qmd": {
+    "bdash.html": "937b38a5"
+  },
+  "posts/4_info0/ind_dash2.qmd": {
+    "ind_dash2.html": "575649cc"
+  },
+  "posts/10_info5/ind_info5.qmd": {
+    "ind_info5.html": "25c3ba07"
+  },
+  "posts/11_info6/ind_info6.qmd": {
+    "ind_info6.html": "b32265f0"
+  },
+  "posts/7_info2/ind_info2.qmd": {
+    "ind_info2.html": "c6173724"
+  },
+  "posts/8_info3/ind_info3.qmd": {
+    "ind_info3.html": "ef7efdf1"
+  },
+  "posts/9_info4/ind_info4.qmd": {
+    "ind_info4.html": "d25257b9"
   }
 }

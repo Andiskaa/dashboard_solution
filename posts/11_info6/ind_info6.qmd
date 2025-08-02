@@ -1,0 +1,17 @@
+---
+title: "PC Analysis 5 Indikator Ekonomi Dunia"
+author: "Andiska"
+image: /images/developedcountry.png
+---
+
+Menjadi negara maju butuh proses yang panjang., dan ini terlihat dari 5 variable ekonomi yang ada, dimana Indonesia masih tertinggal jauh dari Singapore yang sudah masuk ke dalam kelompok negara-negara maju.
+
+![](/images/developedcountry.png){fig-align="center"}
+
+Dengan menggunakan metode PCA (Principal Component Analysis) dan klustering dengan Kmeans, maka dapat kita kelompokkan negara di dunia ini menjadi 3 bagian
+
+1.  Negara Maju
+
+2.  Negara Berkembang
+
+3.  Negara Potensi Berkembang

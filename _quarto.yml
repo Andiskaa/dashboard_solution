@@ -5,30 +5,40 @@ project:
 website:
   title: "My Profile"
   navbar:
-    left: 
-      - text: "Dashboard"
+    right: 
+      - text: "Visualization"
         file: shiny.qmd
-      - text: "Infographics"
-        file: infograph.qmd
       - text: "Galery"
         file: dash.qmd
-
-
-    right:
-      - text: "Blogs"
-        # file: about.qmd
       - icon: linkedin
         href: https://linkedin.com/in/andriiskandar
         target: "_blank"
-        
+
+
 format:
   html:
-    theme: flatly
-    css: styles.css
-    grid: 
-      body-width: 1400px # Increase this value significantly, e.g., 1200px, 1400px, or even 2000px
-      # You could even set margin-width: 0px and gutter-width: 0px if desired
-      # sidebar-width: 0px # If you have no sidebar, you can set this to 0
+    theme:
+      light:
+        - font.css
+        - theme.scss
+    css: stylecss.css
+    code-link: true
+    link-external-newwindow: true
 
-editor: visual
+execute:
+  freeze: auto
+  warning: false
+
+
+        
+# format:
+#   html:
+#     theme: flatly
+#     css: styles.css
+#     grid: 
+#       body-width: 1400px # Increase this value significantly, e.g., 1200px, 1400px, or even 2000px
+#       # You could even set margin-width: 0px and gutter-width: 0px if desired
+#       # sidebar-width: 0px # If you have no sidebar, you can set this to 0
+# 
+# editor: visual
 

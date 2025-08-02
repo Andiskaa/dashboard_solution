@@ -2,6 +2,9 @@
   "listingMap": {
     "about.qmd": [
       "posts"
+    ],
+    "shiny.qmd": [
+      "/posts"
     ]
   }
 }
