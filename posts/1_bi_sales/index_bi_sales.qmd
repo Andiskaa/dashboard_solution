@@ -6,6 +6,6 @@ image: /images/dashboardcontoh4.png
 
 Mengontrol sebuah operasional toko retail bukanlah sebuah hal yang mudah, ada banyak variable yang harus dikontrol secara detail agar performance bisnis tetap terjaga.
 
-[![](/images/dashboardcontoh4.PNG){fig-align="center"}](https://app.powerbi.com/view?r=eyJrIjoiODA4ZDljM2UtNzcyOS00NDAyLTg0Y2MtNWFjYTkwNGI3MGUwIiwidCI6ImU2YTM3MDkzLTgxOTAtNGM4Mi04M2JmLTljMGVlZGVkZDU3NCIsImMiOjEwfQ%3D%3D)
+[![](/images/dashboardcontoh4.png){fig-align="center"}](https://app.powerbi.com/view?r=eyJrIjoiODA4ZDljM2UtNzcyOS00NDAyLTg0Y2MtNWFjYTkwNGI3MGUwIiwidCI6ImU2YTM3MDkzLTgxOTAtNGM4Mi04M2JmLTljMGVlZGVkZDU3NCIsImMiOjEwfQ%3D%3D)
 
 Dashboard berikut dapat dijadikan gambaran tentang parameter yang terjadi setelah pengolah data dilakukan.

@@ -10,14 +10,12 @@ listing:
     categories: false
     sort: date-meta
     grid-columns: 4
+    image-height: 200px
+    
 format:
   html:
     page-layout: full
-
-# format: html
-# html:
-#   page-layout: full # This makes the entire page content full width
-#   
+    
 ---
 
 Perhitungan statistik pada data adalah sesuatu yang sangat baik, namun akan jauh lebih baik bilamana data tersebut divisualisasikan dan dilengkapi dengan storytelling yang tepat agar pembaca dapat mengerti dan memahami insight yang hendak disampaikan. 
