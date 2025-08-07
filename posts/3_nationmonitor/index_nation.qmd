@@ -1,7 +1,7 @@
 ---
 title: "Capaian Ekonomi Dunia"
 author: "Andiska"
-image: /images/dsh4.png
+image: 14.png
 ---
 
 Berikut ini adalah dashboard hasil pengolahan atas 5 variable ekonomi sebuah negara

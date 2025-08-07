@@ -1,7 +1,7 @@
 ---
 title: "Dashboard Sales Monitor"
 author: "Andiska"
-image: /images/dashboardcontoh4.png
+image: 15.png
 ---
 
 Mengontrol sebuah operasional toko retail bukanlah sebuah hal yang mudah, ada banyak variable yang harus dikontrol secara detail agar performance bisnis tetap terjaga.

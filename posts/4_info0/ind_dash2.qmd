@@ -1,7 +1,7 @@
 ---
 title: "Analisa Penjualan Oli Pertamina"
 author: "Andiska"
-image: /images/Marketshare_BUMN.png
+image: 17.png
 ---
 
 Penjualan oli mesin produksi Pertamina sebagai perusahaan negara ternyata masih kurang populer dibandingkan produsen oli lain berdasarkan data scrapping selama 1 bulan di platform marketplace.

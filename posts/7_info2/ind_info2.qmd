@@ -1,11 +1,11 @@
 ---
 title: "Stream Graph Poduksi Minyak"
 author: "Andiska"
-image: /images/prod_petro_streamgraph1.png
+image: 9.png
 ---
 
 Bila digambarkan dalam graphic stream maka total produksi minyak di ASEAN memang mengalami penurunan
 
-![](/images/prod_petro_streamgraph1.png){fig-align="center"}
+![](/images/prod_petro.png){fig-align="center"}
 
 Dan hingga kini masih belum terkonfirmasi telah ditemukannya sumur resevoir minyak bumi besar di kawasan ini. Dan ini bisa menandakan bahwa Asia Tenggara akan menjadi nett importing minyak dalam beberapa tahun ke depan.

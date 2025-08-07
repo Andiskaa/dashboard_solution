@@ -1,7 +1,7 @@
 ---
 title: "PC Analysis 5 Indikator Ekonomi Dunia"
 author: "Andiska"
-image: /images/developedcountry.png
+image: 13.png
 ---
 
 Menjadi negara maju butuh proses yang panjang., dan ini terlihat dari 5 variable ekonomi yang ada, dimana Indonesia masih tertinggal jauh dari Singapore yang sudah masuk ke dalam kelompok negara-negara maju.

@@ -1,7 +1,7 @@
 ---
 title: "Distribusi LPG Jakarta"
 author: "Andiska"
-image: /images/petalpg.png
+image: 11.png
 ---
 
 Distribusi tabung gas 3 Kg sempat menjadi isu panas beberapa bulan yang lalu, dan setelah dikumpulkan beberapa data dari BPS lalu kita analisa, memang tampak bahwa sebarannya memang tidak merata.

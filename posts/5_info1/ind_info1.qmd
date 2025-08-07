@@ -1,7 +1,7 @@
 ---
 title: "Produksi Minyak Bumi Indonesia"
 author: "Andiska"
-image: /images/prod_petro.png
+image: 10.png
 ---
 
 Penurunan produksi minyak memang sudah dirasakan semenjak tahun 2000, dan tren penurunan ini masih terus berlangsung ditengah meningkatnya konsumsi bahan bakar negara-negara ASEAN.

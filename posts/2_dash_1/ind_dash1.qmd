@@ -1,9 +1,9 @@
 ---
 title: "GDP Around The World"
 author: "Andiska"
-image: /images/gdpanalysis.png
+image: 12.png
 ---
 
 Gross Domestic Product per Capita adalah salah satu indikator kemakmuran sebuah negara yang mengukur pendapatannya dibandingkan jumlah penduduk. Dengan visualisasi seperti ini, maka kita dapat melihat seberapa agresive sebuah negara berkembang sejak tahun 1950 hingga 2022.
 
-![](images/clipboard-651963562.png)
+![](images/gdp.png)

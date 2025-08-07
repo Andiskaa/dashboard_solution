@@ -1,7 +1,7 @@
 ---
 title: "US Tariff to ASEAN"
 author: "Andiska"
-image: /images/trumptariff.png
+image: 8.png
 ---
 
 Sebelum adanya kesepakatan final tentang tariff export ke Amerika (19%), Indonesia dikenakan besaran tariff senilai 32% oleh Uncel Sam atau Uncle Trump.
