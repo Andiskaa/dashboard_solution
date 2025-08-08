@@ -1,6 +1,7 @@
 ---
 title: "PC Analysis 5 Indikator Ekonomi Dunia"
 author: "Andiska"
+categories: "Infographic"
 image: 13.png
 ---
 

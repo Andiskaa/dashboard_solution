@@ -7,10 +7,10 @@ listing:
     contents: 
     - /posts
     type: grid
-    categories: false
+    categories: true #dimunculkan keterangan kategory
     sort: date-meta
     grid-columns: 4
-    image-height: 280px
+    image-height: 200px
     
 format:
   html:

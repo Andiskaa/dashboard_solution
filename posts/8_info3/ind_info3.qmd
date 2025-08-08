@@ -1,6 +1,7 @@
 ---
 title: "Distribusi LPG Jakarta"
 author: "Andiska"
+categories: "Infographic"
 image: 11.png
 ---
 

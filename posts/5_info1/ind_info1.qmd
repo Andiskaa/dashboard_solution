@@ -1,6 +1,7 @@
 ---
 title: "Produksi Minyak Bumi Indonesia"
 author: "Andiska"
+categories: "Infographic"
 image: 10.png
 ---
 

@@ -120,7 +120,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Produksi Padi Nasional</h1>
-</div>
+  <div class="quarto-categories">
+    <div class="quarto-category">Infographic</div>
+  </div>
+  </div>
 
 
 
@@ -142,14 +145,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hubungan atau korelasi antara luas lahan dan produktifitas terhadap hasil panen sangat erat kaitannya. Bila luas lahan padi meningkat dan diiringi oleh efisiensi produksi yang baik, maka hasilnya adalah peningkatan jumlah hasil panen.</p>
+<p>Hubungan atau korelasi antara luas lahan dan produktifitas terhadap hasil panen sangat erat kaitannya secara statistik. Bila luas lahan padi meningkat dan diiringi oleh efisiensi produksi yang baik, maka hasilnya adalah peningkatan jumlah hasil panen, rumus prediksi regresinya adalah 5,22 kali luas lahan ditambah 1,04 kali produktifitas hasil lalu dikurangi dengan faktor 5,5 maka hasilnya adalah prediksi hasil panen (dalam ton).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../..\images/mkv_08.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
-<p>Tahun ini total produksi beras kita diperkirakan sebesar 21 juta ton dan jika dikonversikan ke produksi gabah menjadi sekitar 50 juta ton. Dari sini memang sudah terlihat bahwa luas lahan persawahan kita jauh berkurang dibandingkan dengan tahun 2018 dan hingga saat inipun tidak terdapat angka yang signifikan dalam penambahan luas lahannya.</p>
-<p>Sehingga bila tercatat terjadi kenaikan jumlah produksi beras, maka itu lebih banyak disumbang oleh faktor produktifitas.</p>
+<p>Tahun ini (2025) total produksi beras kita diperkirakan sebesar 21 juta ton dan jika dikonversikan ke produksi gabah menjadi sekitar 50 juta ton dengan luas lahan di angka sekitar 10 juta hektar. Dari sini memang sudah terlihat bahwa luas lahan persawahan kita telah jauh berkurang dibandingkan dengan tahun 2018 dan sampai saat inipun tidak terdapat angka yang signifikan dalam penambahan luas lahan persawahan kita, padahal luas lahan (secara analisa regresi) menyumbang faktor 5.22 atas produksi gabah kita.</p>
+<p>Sehingga bila diprediksikan terjadi kenaikan jumlah produksi beras, maka itu lebih banyak disumbang oleh faktor produktifitas. Karena secara data, produktifitas gabah kita sejak tahun 2019 hingga 2024 mengalami kenaikan, yang artinya bahwa teknologi pertanian kita semakin baik setiap tahunnya walaupun luas lahan kita semakin berkurang.</p>
+<p>Visualisasi data seperti di atas memang sengaja saya buat agar kita dapat melihat beberapa variable dalam plot yang sama, seperti :</p>
+<ol type="1">
+<li><p>luas lahan (ha)</p></li>
+<li><p>tahun produksi</p></li>
+<li><p>hasil regresi panen (ton)</p></li>
+<li><p>dan luas produktifitas (ton)</p></li>
+</ol>
+<p>Bila saya bandingkan dengan grafik-grafik standard yang banyak ditampilkan oleh media berita online, maka grafik heatmap seperti di atas dapat langsung memberikan gambaran lengkap tentang apa yang akan diprediksikan sesuai model regresi statistiknya. Di bawah ini adalah grafik batang yang menggambarkan data panen kita namun dengan visualisasi yang berbeda.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/tabel1.PNG" class="img-fluid figure-img"></p>
+<figcaption>Tabel Luas Lahan vs Produktifitas vs Produksi</figcaption>
+</figure>
+</div>
+<p>Grafik di atas ini adalah grafik batang yang menggabungkan 3 variable dasar (luas lahan, produktifitas dan produksi) dalam satu plot yang sama. Visualisasi seperti ini menurut saya tidak tepat karena luas lahan mempunyai satuan hektar dan sedangkan variable lainnya mempunyai satuan ton, dan ini sebenarnya tidak bisa digabungkan menjadi satu dalam sumbu-y yang sama. Disamping itu, satuan pada sumbu Y juga tidak ditampilkan dalam gambar sehingga pembaca akan mengalami kesulitan dalam menterjemahkannya.</p>
 
 
 

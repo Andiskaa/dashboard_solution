@@ -1,6 +1,7 @@
 ---
 title: "US Tariff to ASEAN"
 author: "Andiska"
+categories: "Infographic"
 image: 8.png
 ---
 

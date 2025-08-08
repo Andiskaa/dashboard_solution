@@ -1,6 +1,7 @@
 ---
 title: "Analisa Penjualan Oli Pertamina"
 author: "Andiska"
+categories: "Infographic"
 image: 17.png
 ---
 

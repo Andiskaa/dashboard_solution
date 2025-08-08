@@ -1,6 +1,7 @@
 ---
 title: "Pentingnya Sebuah Bisnis Dahboard"
 author: "Andiska"
+categories: "Dashboard"
 image: 16.png
 ---
 

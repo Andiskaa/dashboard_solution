@@ -1,6 +1,7 @@
 ---
 title: "Stream Graph Poduksi Minyak"
 author: "Andiska"
+categories: "Infographic"
 image: 9.png
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Dashboard Sales Monitor"
 author: "Andiska"
+categories: "Dashboard"
 image: 15.png
 ---
 
